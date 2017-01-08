@@ -1,0 +1,33 @@
+<p>This extension integrates Burp with HP WebInspect. It allows you to share 
+findings between Burp and WebInspect, and make your testing workflows more 
+efficient.</p>
+<p>Usage:</p>
+<ul>
+	<li>Load the extension into Burp.</li>
+	<li>In the WebInspect tab, enter the API URL for your instance of WebInspect 
+	(for example: http://localhost:8083/webinspect), and click &quot;Connect&quot;. The UI 
+	will display the list of WebInspect scans.</li>
+	<li>To start working with a WebInspect scan, select it from the list and 
+	click &quot;Attach to scan&quot;. A new tab will open showing the results of the scan.</li>
+	<li>You can send items from WebInspect to Burp by selecting one or multiple 
+	vulnerabilities in the WebInspect scan tab, and use the context menu to 
+	perform the following actions:<ul>
+		<li>Send to Spider</li>
+		<li>Send to Intruder</li>
+		<li>Send to Repeater</li>
+		<li>Create issue - this will add the vulnerability to Burp Scanner's 
+		results</li>
+	</ul>
+	</li>
+	<li>You can send items from Burp to WebInspect as follows:<ul>
+		<li>Select one or multiple issues in the Burp Scanner results.</li>
+		<li>Use the context menu option &quot;Send to WebInspect&quot;.</li>
+		<li>Select an open WebInspect scan. </li>
+		<li>This will create the issue in WebInspect, and will also create a 
+		crawling session based on the selected base request.</li>
+	</ul>
+	</li>
+</ul>
+<p>For support queries relating to this extension, please contact: <strong>fortifytechsupport@hpe.com</strong>. </p>
+
+

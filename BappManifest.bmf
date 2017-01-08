@@ -1,0 +1,11 @@
+Uuid: baaae14d08f7475781989ebf7ca70924
+ExtensionType: 1
+Name: WebInspect Connector
+ScreenVersion: 1.1
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: True
+Author: Hewlett Packard
+ShortDescription: Integrates Burp with HP WebInspect.
+EntryPoint: WebInspectBurpExtension.jar
+BuildCommand: true
