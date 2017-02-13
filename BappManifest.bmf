@@ -1,6 +1,7 @@
 Uuid: baaae14d08f7475781989ebf7ca70924
 ExtensionType: 1
 Name: WebInspect Connector
+RepoName: webinspect-connector
 ScreenVersion: 1.1
 SerialVersion: 2
 MinPlatformVersion: 0
